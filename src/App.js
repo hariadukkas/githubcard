@@ -1,7 +1,7 @@
 import './App.css';
 import Form from './Form.js'
-import CardList from './Card.js'
 import React from 'react';
+import CardList from "./CardList.js";
 
 
 

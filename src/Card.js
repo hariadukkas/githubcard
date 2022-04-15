@@ -1,11 +1,6 @@
 import App from "./App";
 import React from 'react';
 
-const CardList = (props) => (
-    <div>
-        {props.profiles.map(profile => <Card key={profile.id} {...profile}/>)}
-    </div>
-);
 
 class Card extends React.Component {
     render() {
